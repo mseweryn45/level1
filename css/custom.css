@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+.card {
+    min-height: 40.8rem;
+    margin: 10rem -1.5rem;
+    border: 0;
+}
+
+.card-img-top {
+    width: 50%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8.6rem 11rem 6.9rem 11rem;
+
+}
+
+.card-title {
+    text-align: left;
+    font: Bold 4.2rem Roboto;
+    letter-spacing: 0px;
+    color: #121212;
+    margin-bottom: 4.3rem;
+}
+
+.card-text {
+    text-align: left;
+    font: 300 1.6rem Roboto;
+    line-height: 2.6rem;
+    letter-spacing: 0px;
+    color: #121212;
+    margin-bottom: 3.5rem;
+}
+
+.btn {
+    align-self: flex-end;
+    background: #E4C1AE 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: Bold 1.6rem Roboto;
+    border: none;
+    letter-spacing: 0px;
+    border-radius: 5rem;
+    width: 13.5rem;
+    height: 4.7rem;
+    color: #FFFFFF;
+}
+
+/* MEDIA QUERY */
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    html {
+        font-size: 8px;
+    }
+
+    .card-body {
+        padding: 5rem;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    html {
+        font-size: 7px;
+    }
+
+    .card {
+        height: auto;
+    }
+
+    .card-img-top {
+        object-fit: cover;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    html {
+        font-size: 8px;
+    }
+
+    .card {
+        margin: 0 -15px;
+        border: 0;
+        min-width: 320px;
+    }
+
+    .card-img-top {
+        width: 100%;
+    }
+
+    .card-body {
+        padding: 5rem;
+    }
+}
